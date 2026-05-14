@@ -94,11 +94,12 @@ if(isset($message)){
    </div>
 
    <div class="content">
-      <h3 data-aos="fade-up">hi, i am Hawin Feri</h3>
+      <h3 data-aos="fade-up">Hi, I’m M Tonny Heru Susanto</h3>
       <span data-aos="fade-up">Full Stack Developer</span>
-      <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore recusandae minima molestias aliquam nostrum.</p>
-      <a data-aos="fade-up" href="#about" class="btn">about me</a>
+      <p data-aos="fade-up">Saya mengembangkan aplikasi web end-to-end dengan PHP (Laravel), JavaScript, MySQL, dan RESTful API. Berpengalaman membangun Layung Peradilan untuk Pengadilan Negeri Bale Bandung yang terintegrasi dengan Disdukcapil demi verifikasi data warga secara otomatis.</p>
+      <a data-aos="fade-up" href="#about" class="btn">About me</a>
    </div>
+
 
 </section>
 
@@ -112,16 +113,20 @@ if(isset($message)){
 
    <div class="biography">
 
-      <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur amet ab optio minus est error libero adipisci numquam ratione.</p>
+      <p data-aos="fade-up">Saya lulusan S1 Teknik Informatika dari Universitas Informatika dan Bisnis Indonesia (UNIBI) dengan IPK 3.65. Saya memiliki pengalaman membangun aplikasi web full stack menggunakan PHP (Laravel), JavaScript, HTML/CSS, MySQL, dan integrasi RESTful API.
+      <br><br>
+      Selama magang sebagai Web Programmer di Pengadilan Negeri Bale Bandung, saya mengembangkan <b>Layung Peradilan</b> — sistem administrasi peradilan terintegrasi dengan layanan <b>Disdukcapil</b> (Cimahi, Kabupaten Bandung, dan Bandung Barat) untuk verifikasi data warga secara otomatis. Proyek ini mencakup requirement gathering, perancangan database, pengembangan front-end & back-end, integrasi API, deployment, hingga maintenance.</p>
+
 
       <div class="bio">
-         <h3 data-aos="zoom-in"> <span>name : </span> Hawin Feri Baktiar </h3>
-         <h3 data-aos="zoom-in"> <span>email : </span> hawinvery35@gmail.com </h3>
-         <h3 data-aos="zoom-in"> <span>address : </span> Magetan</h3>
-         <h3 data-aos="zoom-in"> <span>phone : </span> +62852993127516 </h3>
-         <h3 data-aos="zoom-in"> <span>age : </span> 20 years </h3>
-         <h3 data-aos="zoom-in"> <span>experience : </span> 2+ years </h3>
+         <h3 data-aos="zoom-in"> <span>name : </span> M Tonny Heru Susanto </h3>
+         <h3 data-aos="zoom-in"> <span>email : </span> tonnyheru29@gmail.com </h3>
+         <h3 data-aos="zoom-in"> <span>address : </span> Bandung </h3>
+         <h3 data-aos="zoom-in"> <span>phone : </span> - </h3>
+         <h3 data-aos="zoom-in"> <span>age : </span> - </h3>
+         <h3 data-aos="zoom-in"> <span>experience : </span> Magang Full Stack (2025) </h3>
       </div>
+
 
       <a href="#" class="btn" data-aos="fade-up">download CV</a>
 
@@ -131,13 +136,14 @@ if(isset($message)){
 
       <h1 class="heading"> <span>skills</span> </h1>
 
-      <div class="progress">
-         <div class="bar" data-aos="fade-left"> <h3><span>HTML</span> <span>95%</span></h3> </div>
-         <div class="bar" data-aos="fade-right"> <h3><span>CSS</span> <span>80%</span></h3> </div>
-         <div class="bar" data-aos="fade-left"> <h3><span>JavaScript</span> <span>65%</span></h3> </div>
-         <div class="bar" data-aos="fade-right"> <h3><span>PHP</span> <span>80%</span></h3> </div>
-         <div class="bar" data-aos="fade-right"> <h3><span>Codegineter</span> <span>80%</span></h3> </div>
+   <div class="progress">
+         <div class="bar" data-aos="fade-left"> <h3><span>PHP & Laravel</span> <span>85%</span></h3> </div>
+         <div class="bar" data-aos="fade-right"> <h3><span>JavaScript</span> <span>80%</span></h3> </div>
+         <div class="bar" data-aos="fade-left"> <h3><span>MySQL</span> <span>80%</span></h3> </div>
+         <div class="bar" data-aos="fade-right"> <h3><span>RESTful API</span> <span>82%</span></h3> </div>
+         <div class="bar" data-aos="fade-right"> <h3><span>Deployment & Maintenance</span> <span>78%</span></h3> </div>
       </div>
+
 
 
    </div>
@@ -153,21 +159,9 @@ if(isset($message)){
             <h3 class="title" data-aos="fade-right">education</h3>
 
             <div class="box" data-aos="fade-right">
-               <span>( 2019 - 2020 )</span>
-               <h3>Backend Developer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
-            </div>
-
-            <div class="box" data-aos="fade-right">
-               <span>( 2020 - 2021 )</span>
-               <h3>Frontend Developer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
-            </div>
-
-            <div class="box" data-aos="fade-right">
-               <span>( 2021 - 2022 )</span>
-               <h3>graphic designer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
+               <span>( 2019 - 2023 )</span>
+               <h3>S1 Teknik Informatika (UNIBI)</h3>
+               <p>Lulusan dengan IPK 3.65. Fokus pada Software Engineering dan Web Development.</p>
             </div>
 
          </div>
@@ -177,26 +171,24 @@ if(isset($message)){
             <h3 class="title" data-aos="fade-left">experience</h3>
 
             <div class="box" data-aos="fade-left">
-               <span>( 2019 - 2020 )</span>
-               <h3>front-end developer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
+               <span>( Feb 2025 - Aug 2025 )</span>
+               <h3>Web Programmer Intern • Pengadilan Negeri Bale Bandung</h3>
+               <p>
+                  Mengembangkan <b>Layung Peradilan</b> (web-based judicial administration) terintegrasi dengan <b>Disdukcapil</b> untuk verifikasi data warga.
+                  Tercakup: requirement gathering, desain database & alur sistem, pengembangan FE/BE, integrasi RESTful API, deployment, serta maintenance.
+               </p>
             </div>
 
             <div class="box" data-aos="fade-left">
-               <span>( 2020 - 2021 )</span>
-               <h3>back-end developer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
-            </div>
-
-            <div class="box" data-aos="fade-left">
-               <span>( 2021 - 2022 )</span>
-               <h3>full-stack developer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
+               <span>Key Achievements</span>
+               <h3>Penilaian Kompetensi 90/100</h3>
+               <p>Programming, Database Management, Web Development, Security Best Practices, dan Version Control.</p>
             </div>
 
          </div>
 
       </div>
+
 
    </div>
 

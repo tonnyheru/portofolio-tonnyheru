@@ -397,8 +397,36 @@ section .title::after{
     }
 }
 
+/* Featured Project */
+.featured .title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+.featured .project{
+    background: #111;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.featured .project-content h3{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.featured .project-content p{
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
 /* Contact Halaman 4 */
 .contact .title {
+
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
