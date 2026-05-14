@@ -96,7 +96,7 @@ if(isset($message)){
    <div class="content">
       <h3 data-aos="fade-up">Hi, I’m M Tonny Heru Susanto</h3>
       <span data-aos="fade-up">Full Stack Developer</span>
-      <p data-aos="fade-up">Saya mengembangkan aplikasi web end-to-end dengan PHP (Laravel), JavaScript, MySQL, dan RESTful API. Berpengalaman membangun Layung Peradilan untuk Pengadilan Negeri Bale Bandung yang terintegrasi dengan Disdukcapil demi verifikasi data warga secara otomatis.</p>
+      <p data-aos="fade-up">Mengembangkan aplikasi web end-to-end menggunakan <b>PHP (Laravel)</b>, <b>JavaScript</b>, <b>MySQL</b>, dan <b>RESTful API</b>. Berpengalaman membangun <b>Layung Peradilan</b> untuk Pengadilan Negeri Bale Bandung yang terintegrasi dengan <b>Disdukcapil</b> demi verifikasi data warga secara otomatis.</p>
       <a data-aos="fade-up" href="#about" class="btn">About me</a>
    </div>
 
@@ -104,6 +104,7 @@ if(isset($message)){
 </section>
 
 <!-- home section ends -->
+
 
 <!-- about section starts  -->
 
@@ -128,9 +129,12 @@ if(isset($message)){
       </div>
 
 
-      <a href="#" class="btn" data-aos="fade-up">download CV</a>
+
+      <a href="../CV/Curriculum Vitae_tonnyheru.pdf" class="btn" data-aos="fade-up" download>Download CV</a>
+      <a href="../CV/sertifikat.pdf" class="btn" data-aos="fade-up" download style="margin-left: 1rem;">Download Sertifikat</a>
 
    </div>
+
    
    <div class="skills" data-aos="fade-up">
 
