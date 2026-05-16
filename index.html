@@ -15,8 +15,15 @@
 </head>
 
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader-bg"></div>
+        <div class="loader-name">M Tonny Heru Susanto S.Kom</div>
+        <div class="loader-counter" id="loaderCounter">0</div>
+        <div class="loader-bar-wrap">
+            <div class="loader-bar" id="loaderBar"></div>
+        </div>
+        <div class="loader-tagline">Full Stack Developer</div>
     </div>
 
     <nav class="navbar">
@@ -466,7 +473,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
     </section>
 
-    <!-- ── SCRIPTS (urutan wajib dipertahankan) ── -->
+ <!-- ── SCRIPTS (urutan wajib dipertahankan) ── -->
     <!-- 1. Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
@@ -484,6 +491,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
     <!-- 4. Script utama -->
     <script src="js/script.js"></script>
+
+    <!-- 5. Loading Screen -->
+    <script>
+        const loader = document.getElementById('loader');
+        const counter = document.getElementById('loaderCounter');
+        const bar = document.getElementById('loaderBar');
+        let count = 0;
+
+        const interval = setInterval(() => {
+            count++;
+            counter.textContent = count;
+            bar.style.width = count + '%';
+            if (count >= 100) {
+                clearInterval(interval);
+                setTimeout(() => {
+                    loader.classList.add('hide');
+                    setTimeout(() => {
+                        loader.style.display = 'none';
+                    }, 800);
+                }, 400);
+            }
+        }, 20);
+    </script>
 
     </section> <!-- penutup section terakhir -->
 
