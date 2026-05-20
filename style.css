@@ -2217,3 +2217,53 @@ footer .footer-copy {
     height: 1px;
     background: linear-gradient(to right, transparent, rgba(255,255,255,0.05) 30%, rgba(255,255,255,0.05) 70%, transparent);
 }
+/* ===== MOBILE FIX — overflow horizontal ===== */
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .max-width {
+        padding: 0 20px;
+    }
+
+    .skills-groups {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-intro {
+        flex-direction: column;
+    }
+
+    .skills-stats-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .skills-stat-card {
+        flex: 1;
+        min-width: 100px;
+    }
+
+    .nav-mega {
+        display: none !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resume-content {
+        grid-template-columns: 1fr;
+    }
+
+    .project-stats {
+        grid-template-columns: 1fr 1fr;
+    }
+}
